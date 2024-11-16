@@ -1,64 +1,7 @@
-# p5.js multi sketch template
+# HW10 A
+I’ve chosen the theme of Harry Potter—specifically, Hedwig’s Theme—as the background music, and through visualization, I aim to immerse users in a magical world. In the center of the screen are three sets of hexagons representing the high, mid, and low frequencies. Their rotation speed and size are determined by the energy levels of these frequency bands. At the same time, I’ve made the wand follow the mouse cursor. Clicking on the wand plays the music, and another click generates a magical beam with random color, direction, and speed. Users can continuously click to fill the screen with these magical beams, and by using a color picker, they can adjust the color range for the random beams, adding their own touch to the magic.
 
-By putting different sketch.js and index.html files in directories we can more easily switch between multiple experiments.
+# HW10 B
+I chose a song from a Chinese band, FloruitShow, titled “What Can I Use to Keep You?”, inspired by the poem of the same name by Borges（which is ¿Con qué puedo retenerte? ）. This song explores the contradictions of life—it embodies both the brilliance and beauty, as well as the decay and filth. Despite the dark sides, I still long to witness the spring bloom and the return of swallows. Using its peak data, I visualized a square spiral to represent this theme. The sharp black-and-white zigzag lines convey the pain and boredom of life, while the colorful blooming flowers in the center symbolize the beautiful aspects of life.
 
----
-
-This is a README file that can be used to describe and document your assignment.
-
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
-
----
----
-
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+I asked GPT to learn about how to draw a square spiral, as I had previously tried a circular spiral, which is kind of similar to the flower shape. On this basis, I used the peaks of the entire song to draw the waveforms. The flowers in the center of the canvas are controlled by the peaks, adjusting their size accordingly (I limited it to 100 flowers to prevent overcrowding).
